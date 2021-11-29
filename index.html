@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebForm</title>
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Health Supplements Auto Restack</h1>
+        <h2>signup before end of the month to get free product samples</h2>
+      </header>
+      <main>
+      <form name="grr-form" action="#" method="post">
+        <div class="form-box wrap" title="fullName">
+          <label for="name">FullName</label>
+          <input
+            type="text"
+            placeholder="John Wick"
+            id="name"
+            name="name"
+            required
+          />
+        </div>
+        <div class="form-box wrap" title="Email">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            placeholder="John@algonquinlive.com"
+            id="email"
+            name="email"
+            required
+          />
+        </div>
+        <div class="form-box wrap" title="Phone Number">
+          <label for="number">Phone Number</label>
+          <input
+            type="tel"
+            placeholder="6139222036"
+            pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+            id="number"
+            name="number"
+            required
+          />
+        </div>
+        <div class="form-box wrap" title="password">
+          <label for="password">PassWord</label>
+          <input
+            type="password"
+            placeholder="password"
+            id="password"
+            name="password"
+            required
+          />
+        </div>
+        <button type="submit" value="SignUp">SignUp</button>
+      </form>
+    </main>
+  </body>
+</html>
